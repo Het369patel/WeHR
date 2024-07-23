@@ -1,0 +1,63 @@
+:root {
+    /* color styles */
+
+    /* primary-title-large */
+    --ptc: #303030;
+    /* primary-secondary-large */
+    --psc: #686868;
+    /* secondary-title-color */
+    --stc: #303030;
+    /* secondary-subtitle-color */
+    --ssc: #686868;
+    /* main color */
+    --main-c: #ff5151;
+    /* Secondary color */
+    --sec-c: #ff9b6a;
+    /* tertiary  color */
+    --ter-c: #161e54;
+    /* back-ground color */
+    --bg-c: #fafafa;
+    /* just white */
+    --jw: #ffffff;
+    /* just black */
+    --jb: #000000;
+
+    /* font-styles */
+
+    /* title-large */
+    --tl: 36px;
+    --tllh: 42px;
+
+    /* title-medium */
+    --tm: 18px;
+    --tmlh: 28px;
+
+    /* title-small */
+    --ts: 16px;
+    --tslh: 24px;
+
+    /* subtitlle-small */
+    --ss: 14px;
+    --sslh: 20px;
+
+    /* body-large */
+    --bl: 16px;
+    --bllh: 24px;
+
+    /* body-medium */
+    --bm: 14px;
+    --bmlh: 20px;
+
+    /* body-small */
+    --bs: 12px;
+    --bslh: 18px;
+
+    /* body-very-small */
+    --bvs: 10px;
+    --bvslh: 14px;
+
+    /* capitalized */
+    --capitalized: 14px;
+    --capitalized-lh: 20px;
+
+}
