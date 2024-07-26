@@ -11,8 +11,10 @@
     --stc: #303030;
     /* secondary-subtitle-color */
     --ssc: #686868;
+    --ssf: robota;
     /* main color */
     --main-c: #ff5151;
+    --main-f:  poppins;
     /* Secondary color */
     --sec-c: #ff9b6a;
     /* tertiary  color */
