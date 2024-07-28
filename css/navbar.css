@@ -1,5 +1,10 @@
-@import "./utilities.css";
-@import "./main.css";
+
+.nav-wrapper{
+    border-bottom: 1px solid #f1f1f1;
+}
+.right-section {
+    width: calc(100% - 242px);
+}
 
 span {
     display: inline-block;

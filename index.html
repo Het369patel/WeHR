@@ -3,21 +3,115 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WeHR</title>
     <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+    <title>Document</title>
+  </head>
+  <body>
     <div id="root">
-        <div class="sidebar">
-
+      <div class="sidebar">
+        <div class="title"><header>WeHR</header></div>
+        <div class="mmheader">
+          <ul class="mainmenu">
+            <li class="mml">
+              <h1 class="sbh">MAIN MENU</h1>
+            </li>
+            <li class="mml" class="mms">
+              <div class="icon">
+                <img
+                  src="./assets/icons/ic_dashboard.svg"
+                  alt="Dashboard icon"
+                />
+              </div>
+              <h2 class="subh1">Dashboard</h2>
+            </li>
+            <li class="mml" class="mms">
+              <div class="icon">
+                <img
+                  src="./assets/icons/ic_recruitment.svg"
+                  alt="Recruitment icon"
+                />
+              </div>
+              <h2 class="subh2">Recruitment</h2>
+            </li>
+            <li class="mml" class="mms">
+              <div class="icon">
+                <img src="./assets/icons/ic_calendar.svg" alt="Schedule icon" />
+              </div>
+              <h2 class="subh2">Schedule</h2>
+            </li>
+            <li class="mml" class="mms">
+              <div class="icon">
+                <img src="./assets/icons/ic_employee.svg" alt="Employee icon" />
+              </div>
+              <h2 class="subh2">Employee</h2>
+            </li>
+            <li class="mml" class="mms">
+              <div class="icon">
+                <img
+                  src="./assets/icons/ic_department.svg"
+                  alt=" Department icon"
+                />
+              </div>
+              <h2 class="subh2">Department</h2>
+            </li>
+          </ul>
         </div>
-        <div class="right-section">
-            <div>
-                <nav class="navbar">
 
-                </nav>
+        <div class="mmheader">
+          <ul class="other">
+            <li class="mml">
+              <h1 class="sbh">OTHER</h1>
+            </li>
+            <li class="mml" class="mms">
+              <div class="icon">
+                <img src="./assets/icons/ic_support.svg" alt="Support icon" />
+              </div>
+              <h2 class="subh2">Support</h2>
+            </li>
+            <li class="mml" class="mms">
+              <div class="icon">
+                <img src="./assets/icons/ic_settings.svg" alt="Setting icon" />
+              </div>
+              <h2 class="subh2">Setting</h2>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-section">
+        <div class="nav-wrapper">
+          <nav class="navbar">
+            <div class="searchbox">
+              <input type="search" placeholder="search" />
+              <img src="./assets/icons/search-icon.svg" alt="search" />
             </div>
+            <div class="profile-messages">
+              <div class="message-controls">
+                <img
+                  src="./assets/icons/ic_round-notifications.svg"
+                  alt="notification-icon"
+                />
+                <img
+                  src="./assets/icons/bi_chat-left-dots-fill.svg"
+                  alt="messages-icon"
+                />
+              </div>
+              <div class="profile">
+                <div class="profile-picture">
+                  <img
+                    src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="profileImage"
+                  />
+                </div>
+                <p class="profile-name">Admirra John</p>
+                <img src="./assets/icons/arrow-down.svg" alt="" />
+              </div>
+            </div>
+          </nav>
         </div>
+      </div>
     </div>
   </body>
 </html>
